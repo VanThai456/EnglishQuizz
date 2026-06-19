@@ -1,0 +1,31 @@
+.container {
+    -fx-background-color: #121212;
+    -fx-alignment: center;
+    -fx-spacing: 15;
+    -fx-font-family: "Verdana";
+    -fx-font-size: 14pt;
+}
+
+.Subject {
+    -fx-font-family: "Verdana";
+    -fx-font-size: 40pt;
+    -fx-font-weight: bold;
+    -fx-fill: #FFFFFF;
+}
+
+.button {
+    -fx-background-color: #333333;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-family: "Verdana";
+    -fx-font-size: 14pt;
+    -fx-pref-width: 250;
+    -fx-padding: 10;
+}
+
+.button:hover {
+    -fx-background-color: #444444;
+}
+
+.button:pressed {
+    -fx-background-color: #222222;
+}

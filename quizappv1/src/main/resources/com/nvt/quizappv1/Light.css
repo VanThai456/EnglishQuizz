@@ -1,0 +1,31 @@
+.container {
+    -fx-background-color: #FFFFFF;
+    -fx-alignment: center;
+    -fx-spacing: 15;
+    -fx-font-family: "Arial";
+    -fx-font-size: 14pt;
+}
+
+.Subject {
+    -fx-font-family: "Arial";
+    -fx-font-size: 40pt;
+    -fx-font-weight: bold;
+    -fx-fill: #000000;
+}
+
+.Button {
+    -fx-background-color: #E0E0E0;
+    -fx-text-fill: #000000;
+    -fx-font-family: "Arial";
+    -fx-font-size: 14pt;
+    -fx-pref-width: 250;
+    -fx-padding: 10;
+}
+
+.Button:hover {
+    -fx-background-color: #D5D5D5;
+}
+
+.Button:pressed {
+    -fx-background-color: #C5C5C5;
+}
